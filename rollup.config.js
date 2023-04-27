@@ -1,23 +1,16 @@
-import { terser } from 'rollup-plugin-terser'
-import multi from '@rollup/plugin-multi-entry'
+import multi from "@rollup/plugin-multi-entry";
+import { terser } from "rollup-plugin-terser";
 
 export default [
-    {
-        input: {
-            include: [
-                'scripts/*.js',
-                'scripts/*/*.js'
-            ],
-            exclude: [
-                'scripts/token-action-hud-dnd5e.min.js']
-        },
-        output: {
-            format: 'esm',
-            file: 'scripts/token-action-hud-dnd5e.min.js'
-        },
-        plugins: [
-            terser({ keep_classnames: true, keep_fnames: true }),
-            multi()
-        ]
-    }
-]
+	{
+		input: {
+			include: ["scripts/*.js", "scripts/*/*.js"],
+			exclude: ["scripts/token-action-hud-swade.min.js"],
+		},
+		output: {
+			format: "esm",
+			file: "scripts/token-action-hud-swade.min.js",
+		},
+		plugins: [terser({ keep_classnames: true, keep_fnames: true }), multi()],
+	},
+];

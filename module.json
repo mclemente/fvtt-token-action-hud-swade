@@ -1,122 +1,114 @@
 {
-  "id": "token-action-hud-dnd5e",
-  "title": "Token Action HUD D&D 5e",
-  "description": "Token Action HUD is a repositionable HUD of actions for a selected token",
-  "authors": [
-    {
-      "name": "Larkinabout",
-      "url": "https://github.com/Larkinabout"
-    },
-    {
-      "name": "Drental"
-    },
-    {
-      "name": "^ and stick"
-    }
-  ],
-  "url": "This is auto replaced",
-  "flags": {},
-  "version": "This is auto replaced",
-  "compatibility": {
-    "minimum": "10",
-    "verified": "10.291"
-  },
-  "esmodules": [
-    "./scripts/token-action-hud-dnd5e.min.js"
-  ],
-  "scripts": [
-  ],
-  "styles": [
-  ],
-  "languages": [
-    {
-      "lang": "en",
-      "name": "English",
-      "path": "languages/en.json"
-    },
-    {
-      "lang": "ko",
-      "name": "Korean",
-      "path": "languages/ko.json"
-    },
-    {
-      "lang": "pt-BR",
-      "name": "Português (Brasil)",
-      "path": "languages/br.json"
-    },
-    {
-      "lang": "es",
-      "name": "Spanish",
-      "path": "languages/es.json"
-    },
-    {
-      "lang": "fr",
-      "name": "French",
-      "path": "languages/fr.json"
-    },
-    {
-      "lang": "pl",
-      "name": "Polish",
-      "path": "languages/pl.json"
-    },
-    {
-      "lang": "ja",
-      "name": "日本語",
-      "path": "languages/ja.json"
-    },
-    {
-      "lang": "cn",
-      "name": "中文",
-      "path": "languages/cn.json"
-    },
-    {
-      "lang": "it",
-      "name": "italiano",
-      "path": "languages/it.json"
-    },
-    {
-      "lang": "de",
-      "name": "Deutsch",
-      "path": "languages/de.json"
-    }
-  ],
-  "packs": [],
-  "relationships": {
-    "systems": [
-      {
-        "id": "dnd5e",
-        "type": "system",
-        "compatibility": [
-          {
-            "minimum": "2.1.0",
-            "verified": "2.1.5"
-          }
-        ]
-      }
-    ],
-    "requires": [
-      {
-        "id": "token-action-hud-core",
-        "type": "module",
-        "compatibility": [
-          {
-            "minimum": "1.3.0",
-            "maximum": "1.3",
-            "verified": "1.3.0"
-          }
-        ]
-      }
-    ],
-    "optional": [],
-    "flags": {
-      "optional": []
-    }
-  },
-  "socket": false,
-  "manifest": "This is auto replaced",
-  "download": "This is auto replaced",
-  "readme": "https://github.com/Larkinabout/fvtt-token-action-hud-dnd5e#readme",
-  "protected": false,
-  "coreTranslation": false,
-  "library": false
+	"id": "token-action-hud-swade",
+	"title": "Token Action HUD Savage Worlds",
+	"description": "Token Action HUD is a repositionable HUD of actions for a selected token",
+	"authors": [
+		{
+			"name": "Matheus Clemente",
+			"url": "https://github.com/mclemente",
+			"discord": "mclemente#5524",
+			"ko-fi": "mclemente"
+		}
+	],
+	"url": "This is auto replaced",
+	"flags": {},
+	"version": "This is auto replaced",
+	"compatibility": {
+		"minimum": "10",
+		"verified": "11.295"
+	},
+	"esmodules": ["./scripts/token-action-hud-swade.min.js"],
+	"scripts": [],
+	"styles": [],
+	"languages": [
+		{
+			"lang": "en",
+			"name": "English",
+			"path": "languages/en.json"
+		},
+		{
+			"lang": "ko",
+			"name": "Korean",
+			"path": "languages/ko.json"
+		},
+		{
+			"lang": "pt-BR",
+			"name": "Português (Brasil)",
+			"path": "languages/br.json"
+		},
+		{
+			"lang": "es",
+			"name": "Spanish",
+			"path": "languages/es.json"
+		},
+		{
+			"lang": "fr",
+			"name": "French",
+			"path": "languages/fr.json"
+		},
+		{
+			"lang": "pl",
+			"name": "Polish",
+			"path": "languages/pl.json"
+		},
+		{
+			"lang": "ja",
+			"name": "日本語",
+			"path": "languages/ja.json"
+		},
+		{
+			"lang": "cn",
+			"name": "中文",
+			"path": "languages/cn.json"
+		},
+		{
+			"lang": "it",
+			"name": "italiano",
+			"path": "languages/it.json"
+		},
+		{
+			"lang": "de",
+			"name": "Deutsch",
+			"path": "languages/de.json"
+		}
+	],
+	"packs": [],
+	"relationships": {
+		"systems": [
+			{
+				"id": "swade",
+				"type": "system",
+				"compatibility": [
+					{
+						"minimum": "2.3.3",
+						"verified": "2.3.5"
+					}
+				]
+			}
+		],
+		"requires": [
+			{
+				"id": "token-action-hud-core",
+				"type": "module",
+				"compatibility": [
+					{
+						"minimum": "1.3.0",
+						"maximum": "1.3",
+						"verified": "1.3.0"
+					}
+				]
+			}
+		],
+		"optional": [],
+		"flags": {
+			"optional": []
+		}
+	},
+	"socket": false,
+	"manifest": "This is auto replaced",
+	"download": "This is auto replaced",
+	"readme": "https://github.com/mclemente/fvtt-token-action-hud-swade#readme",
+	"protected": false,
+	"coreTranslation": false,
+	"library": false
 }
